@@ -1,4 +1,4 @@
-package udemy.spring.springdemo;
+package udemy.spring.springdemo.main;
 
 public class MyApp {
 

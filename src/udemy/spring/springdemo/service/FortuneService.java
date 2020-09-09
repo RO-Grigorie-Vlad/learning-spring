@@ -1,4 +1,4 @@
-package udemy.spring.springdemo;
+package udemy.spring.springdemo.service;
 
 public interface FortuneService {
 	

@@ -1,6 +1,8 @@
-package udemy.spring.springdemo;
+package udemy.spring.springdemo.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import udemy.spring.springdemo.Coach;
 
 public class SpringHelloApp {
 

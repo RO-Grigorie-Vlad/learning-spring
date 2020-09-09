@@ -1,4 +1,4 @@
-package udemy.spring.springdemo;
+package udemy.spring.springdemo.service;
 
 import java.util.ArrayList;
 import java.util.List;

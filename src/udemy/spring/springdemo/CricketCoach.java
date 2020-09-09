@@ -1,5 +1,8 @@
 package udemy.spring.springdemo;
 
+import udemy.spring.springdemo.service.FortuneService;
+import udemy.spring.springdemo.service.RandomFortuneService;
+
 public class CricketCoach implements Coach {
 	
 	public CricketCoach() {

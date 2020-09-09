@@ -1,4 +1,4 @@
-package udemy.spring.springdemo;
+package udemy.spring.springdemo.logConfig;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;

@@ -1,5 +1,4 @@
-package udemy.spring.springdemo;
-
+package udemy.spring.springdemo.service;
 
 public class HappyFortuneService implements FortuneService {
 

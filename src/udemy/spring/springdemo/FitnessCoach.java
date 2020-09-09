@@ -1,5 +1,7 @@
 package udemy.spring.springdemo;
 
+import udemy.spring.springdemo.service.FortuneService;
+
 public class FitnessCoach implements Coach{
 	
 	private FortuneService fortuneService;
