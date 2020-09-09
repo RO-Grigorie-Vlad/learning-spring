@@ -19,7 +19,7 @@
     	<property name="printedLoggerLevel" value="FINE"/>
     </bean>
     
-    <bean id="myFortune" class="udemy.spring.springdemo.HappyFortuneService">
+    <bean id="myFortuneService" class="udemy.spring.springdemo.HappyFortuneService">
     
     </bean>
     
@@ -28,8 +28,15 @@
     	class="udemy.spring.springdemo.BaseballCoach">
     	
     	<!-- set up constructor injection -->
+    	<constructor-arg ref="myFortuneService"/>
+    </bean>
+    
+    <bean id="myCricketCoach" 
+    	class="udemy.spring.springdemo.CricketCoach">
     	
-    	<constructor-arg ref="myFortune"/>
+    	<property name="fortuneService" ref="myFortuneService"></property>
+    	<property name="email" value="vlad_grigorie@yahoo.com"></property>
+    	<property name="team" value="Dinamo"></property>
     </bean>
     
 </beans>
