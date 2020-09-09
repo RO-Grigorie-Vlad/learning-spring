@@ -1,23 +1,26 @@
 package udemy.spring.springdemo;
 
-public class TrackCoach implements Coach{
+public class FitnessCoach implements Coach{
 	
 	private FortuneService fortuneService;
 	
-	public TrackCoach(FortuneService fortuneService) {
+	public FitnessCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
 	
 	@Override
 	public String getDailyWorkout() {
-		return "Run a mile!";
+
+		return "Do pullups for 4 sets of 12-10-10-8 reps";
 	}
 
 	@Override
 	public String getDailyFortune() {
 		
-		return "Just do it: " + fortuneService.getFortune();
+		return fortuneService.getFortune();
 	}
+	
+	
 	
 	
 }
