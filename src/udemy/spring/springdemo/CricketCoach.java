@@ -8,10 +8,20 @@ public class CricketCoach implements Coach {
 	
 	
 	private FortuneService fortuneService;
+	private RandomFortuneService randomFortuneService;
 	
 	//adding new fields for emails and team
 	private String email;
 	private String team;
+	
+	public RandomFortuneService getRandomFortuneService() {
+		return randomFortuneService;
+	}
+
+	public void setRandomFortuneService(RandomFortuneService randomFortuneService) {
+		System.out.println("CricketCoach: Inside the setRandomFortuneService()");
+		this.randomFortuneService = randomFortuneService;
+	}
 	
 	public String getEmail() {
 		return email;
@@ -47,6 +57,12 @@ public class CricketCoach implements Coach {
 	public String getDailyFortune() {
 		
 		return fortuneService.getFortune();
+	}
+	
+	public String getRandomFortune() {
+		
+		return randomFortuneService.getFortune();
+		
 	}
 
 }

@@ -20,6 +20,9 @@ public class SetterDemoApp {
 		System.out.println(theCoach.getEmail());
 		System.out.println(theCoach.getTeam());
 		
+		System.out.println(theCoach.getRandomFortune());
+		
+		
 		//close the context
 		context.close();
 	}
