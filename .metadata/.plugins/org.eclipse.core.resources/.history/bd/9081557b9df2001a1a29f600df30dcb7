@@ -1,0 +1,23 @@
+package udemy.spring.springdemo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class RandomFortune implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		
+		List<String> fortuneList =  new ArrayList<String>();
+		fortuneList.add("You will have good luck today");
+		fortuneList.add("You will have bad luck today");
+		fortuneList.add("You will have a normal day");
+		
+		Random random = new Random();
+	    int index = random.nextInt(2 - 0) + 0;
+	    
+		return fortuneList.get(index);
+	}
+
+}

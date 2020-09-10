@@ -1,0 +1,14 @@
+package udemy.spring.springdemo;
+
+import udemy.spring.springdemo.FortuneService;
+
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+
+		return "You will have good luck today";
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package udemy.spring.springdemo;
+
+import org.springframework.context.ConfigurableApplicationContext;
+
+public class BeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		
+		
+		// load the spring config file
+		
+		
+		
+		//retrieve bean from spring container
+
+	}
+
+}
