@@ -1,5 +1,0 @@
-package udemy.spring.springdemo;
-
-public interface Coach {
-
-}
